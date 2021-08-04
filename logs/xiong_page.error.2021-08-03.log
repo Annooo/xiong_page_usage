@@ -1,0 +1,18 @@
+2021-08-03 14:36:45 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field commonMapper in com.shong.xiong_page_usage.services.AreaServiceImpl required a bean of type 'com.shong.xiong_page_usage.mapper.CommonMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.shong.xiong_page_usage.mapper.CommonMapper' in your configuration.
+

@@ -1,0 +1,105 @@
+2021-08-03 14:36:44 [main] INFO  c.shong.xiong_page_usage.XiongPageUsageApplication - Starting XiongPageUsageApplication using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 31284 (D:\Code\E\study\study_self\xiong_page_usage\target\classes started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:36:44 [main] INFO  c.shong.xiong_page_usage.XiongPageUsageApplication - No active profile set, falling back to default profiles: default
+2021-08-03 14:36:45 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:36:45 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:36:45 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.shong.xiong_page_usage]' package. Please check your configuration.
+2021-08-03 14:36:45 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9003 (http)
+2021-08-03 14:36:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9003"]
+2021-08-03 14:36:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-03 14:36:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 14:36:45 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-03 14:36:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 821 ms
+2021-08-03 14:36:45 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'areaServiceImpl': Unsatisfied dependency expressed through field 'commonMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shong.xiong_page_usage.mapper.CommonMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-08-03 14:36:45 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-03 14:36:45 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:40)
+2021-08-03 14:36:45 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-03 14:36:45 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field commonMapper in com.shong.xiong_page_usage.services.AreaServiceImpl required a bean of type 'com.shong.xiong_page_usage.mapper.CommonMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.shong.xiong_page_usage.mapper.CommonMapper' in your configuration.
+
+2021-08-03 14:40:41 [main] INFO  c.shong.xiong_page_usage.XiongPageUsageApplication - Starting XiongPageUsageApplication using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 15760 (D:\Code\E\study\study_self\xiong_page_usage\target\classes started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:40:41 [main] INFO  c.shong.xiong_page_usage.XiongPageUsageApplication - No active profile set, falling back to default profiles: default
+2021-08-03 14:40:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:40:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:40:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9003 (http)
+2021-08-03 14:40:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9003"]
+2021-08-03 14:40:42 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-03 14:40:42 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 14:40:42 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-03 14:40:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 750 ms
+2021-08-03 14:40:43 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 14:40:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9003"]
+2021-08-03 14:40:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9003 (http) with context path ''
+2021-08-03 14:40:43 [main] INFO  c.shong.xiong_page_usage.XiongPageUsageApplication - Started XiongPageUsageApplication in 2.397 seconds (JVM running for 3.257)
+2021-08-03 14:40:59 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Starting XiongPageUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 3724 (started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:40:59 [main] INFO  c.s.x.XiongPageUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-03 14:41:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:41:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:41:03 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 14:41:03 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Started XiongPageUsageApplicationTests in 4.224 seconds (JVM running for 5.127)
+2021-08-03 14:41:04 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-03 14:41:04 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-03 14:43:58 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Starting XiongPageUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 25760 (started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:43:58 [main] INFO  c.s.x.XiongPageUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-03 14:43:58 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:43:58 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:44:01 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 14:44:01 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Started XiongPageUsageApplicationTests in 3.893 seconds (JVM running for 4.854)
+2021-08-03 14:44:02 [main] INFO  c.shong.xiong_page_usage.services.AreaServiceImpl - consultConfigAreas = Page{pageNum=1, pageSize=10, startRow=0, endRow=10, total=1, pages=1}[com.shong.xiong_page_usage.model.ConsultConfigArea@19d27c27] 
+2021-08-03 14:44:02 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-03 14:44:02 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-03 14:49:41 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Starting XiongPageUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 30028 (started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:49:41 [main] INFO  c.s.x.XiongPageUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-03 14:49:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:49:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:49:44 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 14:49:45 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Started XiongPageUsageApplicationTests in 4.004 seconds (JVM running for 4.954)
+2021-08-03 14:49:45 [main] INFO  c.shong.xiong_page_usage.services.AreaServiceImpl - consultConfigAreas = Page{pageNum=1, pageSize=10, startRow=0, endRow=10, total=0, pages=0}[] 
+2021-08-03 14:49:45 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-03 14:49:45 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-03 14:53:19 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Starting XiongPageUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 24256 (started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:53:19 [main] INFO  c.s.x.XiongPageUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-03 14:53:19 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:53:19 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:53:22 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 14:53:22 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Started XiongPageUsageApplicationTests in 3.861 seconds (JVM running for 4.814)
+2021-08-03 14:53:23 [main] INFO  c.shong.xiong_page_usage.services.AreaServiceImpl - consultConfigAreas = Page{pageNum=1, pageSize=10, startRow=0, endRow=10, total=0, pages=0}[] 
+2021-08-03 14:53:23 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-03 14:53:23 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-03 14:55:24 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Starting XiongPageUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 33424 (started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 14:55:24 [main] INFO  c.s.x.XiongPageUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-03 14:55:25 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 14:55:25 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2021-08-03 14:55:27 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 14:55:28 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Started XiongPageUsageApplicationTests in 4.005 seconds (JVM running for 4.941)
+2021-08-03 14:55:28 [main] INFO  c.shong.xiong_page_usage.services.AreaServiceImpl - consultConfigAreas = Page{pageNum=1, pageSize=10, startRow=0, endRow=10, total=35, pages=4}[com.shong.xiong_page_usage.model.ConsultConfigArea@7440265c, com.shong.xiong_page_usage.model.ConsultConfigArea@1d8be7b9, com.shong.xiong_page_usage.model.ConsultConfigArea@48277712, com.shong.xiong_page_usage.model.ConsultConfigArea@3d53e876, com.shong.xiong_page_usage.model.ConsultConfigArea@48d44b46, com.shong.xiong_page_usage.model.ConsultConfigArea@aa0dbca, com.shong.xiong_page_usage.model.ConsultConfigArea@794cb26b, com.shong.xiong_page_usage.model.ConsultConfigArea@5b7ee56c, com.shong.xiong_page_usage.model.ConsultConfigArea@311a0b3e, com.shong.xiong_page_usage.model.ConsultConfigArea@3de8f85c] 
+2021-08-03 14:55:28 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-03 14:55:28 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-03 15:00:55 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Starting XiongPageUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 29028 (started by 10349 in D:\Code\E\study\study_self\xiong_page_usage)
+2021-08-03 15:00:55 [main] INFO  c.s.x.XiongPageUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-03 15:00:56 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-03 15:00:56 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2021-08-03 15:00:59 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-03 15:00:59 [main] INFO  c.s.x.XiongPageUsageApplicationTests - Started XiongPageUsageApplicationTests in 3.965 seconds (JVM running for 4.939)
+2021-08-03 15:00:59 [main] INFO  c.shong.xiong_page_usage.services.AreaServiceImpl - consultConfigAreas = Page{pageNum=1, pageSize=10, startRow=0, endRow=10, total=1, pages=1}[com.shong.xiong_page_usage.model.ConsultConfigArea@2f99d8c] 
+2021-08-03 15:00:59 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-03 15:00:59 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
